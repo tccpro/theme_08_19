@@ -1,0 +1,228 @@
+{
+    "sections": {
+      "slider": {
+        "type": "slider",
+        "blocks": {
+          "slider-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2X4_Risen_Division.png",
+              "alignment": "center center",
+              "overlay_opacity": 0,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "slider-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_8255_edit.jpg",
+              "alignment": "center top",
+              "overlay_opacity": 0,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "b35886e3-0669-42e6-a04f-c321ef6d4707": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/carousel.jpg",
+              "alignment": "center center",
+              "overlay_opacity": 15,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "176a117f-0b25-4530-95cf-f0658264e3f5": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/philosophy_edit.jpg",
+              "alignment": "center center",
+              "overlay_opacity": 30,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "slider-0",
+          "slider-1",
+          "b35886e3-0669-42e6-a04f-c321ef6d4707",
+          "176a117f-0b25-4530-95cf-f0658264e3f5"
+        ],
+        "settings": {
+          "slider_height": "large",
+          "slider_autorotate": true,
+          "slider_autorotate_rate": 3,
+          "slider_home_transition": "fade",
+          "text_size": "medium"
+        }
+      },
+      "16554964381ac46966": {
+        "type": "collection-list",
+        "blocks": {
+          "16554964381ac46966-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "the-woolf"
+            }
+          },
+          "16554964381ac46966-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "the-quimby"
+            }
+          },
+          "16554964381ac46966-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "the-wilde"
+            }
+          },
+          "16554964381ac46966-3": {
+            "type": "collection",
+            "settings": {
+              "collection": "the-gibson"
+            }
+          }
+        },
+        "block_order": [
+          "16554964381ac46966-0",
+          "16554964381ac46966-1",
+          "16554964381ac46966-2",
+          "16554964381ac46966-3"
+        ],
+        "settings": {
+          "title": "FEATURED COLLECTIONS"
+        }
+      },
+      "165549798435367093": {
+        "type": "featured-product",
+        "settings": {
+          "featured_product": "the-lamarr",
+          "product_vendor_enable": false,
+          "product_quantity_enable": false,
+          "product_image_zoom_type": "zoom-in",
+          "social_sharing": true,
+          "enable_payment_button": false,
+          "add_to_cart_width": "medium"
+        }
+      },
+      "1655497567b04c1b3b": {
+        "type": "rich-text",
+        "settings": {
+          "section_title": "YOUR CUSTOM SUIT",
+          "text": "<p><strong>Interested in a one-of-a-kind jumpsuit?<\/strong><\/p><p>Starting at $750 you can get a unique and exclusive RISEN DIVISION Couture Workwear Jumpsuit, and select from a variety of colors, design details, trims and more.<em> <\/em><\/p>",
+          "text_size": "large"
+        }
+      },
+      "16554973409976faf1": {
+        "type": "gallery",
+        "blocks": {
+          "16554973409976faf1-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bespoke.jpg",
+              "link": "shopify:\/\/pages\/bespoke"
+            }
+          },
+          "16554973409976faf1-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/white.png",
+              "link": "shopify:\/\/pages\/bespoke"
+            }
+          },
+          "16554973409976faf1-2": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bespoke.jpg",
+              "link": "shopify:\/\/pages\/bespoke"
+            }
+          }
+        },
+        "block_order": [
+          "16554973409976faf1-0",
+          "16554973409976faf1-1",
+          "16554973409976faf1-2"
+        ],
+        "settings": {}
+      },
+      "165549792603dc1cca": {
+        "type": "gallery",
+        "disabled": true,
+        "blocks": {
+          "165549792603dc1cca-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bespoke.jpg",
+              "link": "shopify:\/\/pages\/bespoke"
+            }
+          },
+          "165549792603dc1cca-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bespoke.jpg",
+              "link": "shopify:\/\/pages\/bespoke"
+            }
+          },
+          "165549792603dc1cca-2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bespoke.jpg",
+              "link": "shopify:\/\/pages\/bespoke"
+            }
+          }
+        },
+        "block_order": [
+          "165549792603dc1cca-0",
+          "165549792603dc1cca-1",
+          "165549792603dc1cca-2"
+        ],
+        "settings": {}
+      },
+      "feature-row-0": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/philosophy_square.jpg",
+          "layout": "right",
+          "title": "OUR PHILOSOPHY",
+          "text": "<p><strong>RISEN DIVISION is dedicated to continuing the art and legacy of the jumpsuit for the polymath.<\/strong><\/p><p>The jumpsuit is a stand-alone piece that transitions from day to night. It embraces the feeling of empowerment and inner beauty as a closet staple that transcends time, trend and is forever in fashion.<\/p><p>Here's to continuing the cult classic with a nod to its formative years, and the men and women who have led the way to our ever-changing, multi-tasking selves.<\/p><p>“IN JUMPSUITS WE TRUST”<br\/>RISEN DIVISION<\/p>",
+          "button_label": "LEARN MORE",
+          "button_link": "shopify:\/\/pages\/about"
+        }
+      },
+      "16554987567ad113ea": {
+        "type": "instafeed",
+        "settings": {
+          "heading_size": 24,
+          "feed_width": 100,
+          "html_area": ""
+        }
+      }
+    },
+    "order": [
+        "slider",
+        "16554964381ac46966",
+        "165549798435367093",
+        "1655497567b04c1b3b",
+        "16554973409976faf1",
+        "165549792603dc1cca",
+        "feature-row-0",
+        "16554987567ad113ea"
+    ]
+  }
+  

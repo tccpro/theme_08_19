@@ -1,0 +1,43 @@
+{
+  "sections": {
+    "main": {
+      "type": "product-template",
+      "settings": {
+        "product_vendor_enable": true,
+        "product_quantity_enable": true,
+        "product_image_zoom_type": "zoom-in",
+        "product_thumbnails_position": "below",
+        "show_extra_tab": true,
+        "extra_tab_content": "size-chart",
+        "social_sharing": true,
+        "enable_payment_button": true,
+        "add_to_cart_width": "small"
+      }
+    },
+    "product-collection-pdp": {
+      "type": "product-collection-pdp",
+      "settings": {
+        "show_product_recommendations": true,
+        "heading": "Featured from this Collection",
+        "vendor_enable": false,
+        "show_sale_circle": false,
+        "center_grid_link": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "heading": "You may also like",
+        "vendor_enable": false,
+        "show_sale_circle": false,
+        "center_grid_link": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-collection-pdp",
+    "product-recommendations"
+  ]
+}

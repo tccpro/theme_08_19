@@ -1,0 +1,10 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-no-heading-template"
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

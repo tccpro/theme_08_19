@@ -1,0 +1,45 @@
+<style>
+  /* {% comment %}
+  {% if image.aspect_ratio < 1 %}
+    {% assign max_width = height | times: image.aspect_ratio %}
+    {% if image.height < height %}
+      {% assign max_height = image.height %}
+      {% assign max_width = image.width %}
+    {% else %}
+      {% assign max_height = height %}
+    {% endif %}
+  {% else %}
+    {% assign max_height = width | divided_by: image.aspect_ratio %}
+    {% if image.width < width %}
+      {% assign max_height = image.height %}
+      {% assign max_width = image.width %}
+    {% else %}
+      {% assign max_width = width %}
+    {% endif %}
+    {% endif %} 
+    {% endcomment %}*/
+    #{{ img_id }} {
+      max-width: {{ width }}px;
+      max-height: {{ height }}px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    #{{ wrapper_id }} {
+      max-width: {{ width }}px;
+      height: {{height}}px;
+    }
+    @media screen and (min-width: 750px) {
+      #{{ img_id }} {
+        max-width: {{ width }}px;
+        max-height: {{ height }}px;
+        width: 100%;
+        height: {{height}}px;
+        object-fit: cover;
+      }
+      #{{ wrapper_id }} {
+        max-width: {{ width }}px;
+        height: {{height}}px;
+      }
+    }
+</style>

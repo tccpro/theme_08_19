@@ -1,0 +1,974 @@
+{
+  "current": {
+    "enable_wide_layout": true,
+    "color_topbar_bg": "#403b37",
+    "color_body_bg": "#ffffff",
+    "color_footer_bg": "#403b37",
+    "color_borders": "#dddddd",
+    "color_primary": "#6c6c6c",
+    "color_button_primary_text": "#ffffff",
+    "color_topbar_text": "#ffffff",
+    "color_header_text": "#403b37",
+    "color_body_text": "#403b37",
+    "color_footer_text": "#ffffff",
+    "color_footer_social_link": "#d72c60",
+    "type_base_family": "archivo_narrow_n4",
+    "type_base_size": "16px",
+    "type_header_family": "archivo_narrow_n7",
+    "type_header_size": "26px",
+    "type_accent_family": "archivo_narrow_n4",
+    "type_accent_size": "18px",
+    "type_accent_transform": true,
+    "type_accent_spacing": false,
+    "favicon": "shopify:\/\/shop_images\/Risen_Division_Logo_647c3c53-8f4a-44dc-816e-e764173a47a7.png",
+    "social_twitter_link": "https:\/\/twitter.com\/risendivision",
+    "social_facebook_link": "https:\/\/www.facebook.com\/RISENDIVISION\/",
+    "social_instagram_link": "https:\/\/instagram.com\/risendivision",
+    "share_facebook": true,
+    "share_twitter": true,
+    "share_pinterest": true,
+    "social_sharing_style": "is-clean",
+    "newsletter_header_1": "Subscribe to our newsletter & get",
+    "newsletter_header_2": "15% off",
+    "newsletter_email_label": "Email",
+    "newsletter_footer_content": "“In Jumpsuits We Trust”",
+    "newsletter_button_label": "Subscribe",
+    "newsletter_image": "shopify:\/\/shop_images\/newsletter-min_1.jpg",
+    "checkout_header_image": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/risen_division_logo_for_web_v2_2604c137-e8bc-42d6-879f-935f507b58be.png",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#fff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "Helvetica Neue",
+    "checkout_body_font": "Helvetica Neue",
+    "checkout_accent_color": "#d72c60",
+    "checkout_button_color": "#d72c60",
+    "checkout_error_color": "#e42c00",
+    "newsletter_header": "Subscribe to our newsletter & get<br>15% off",
+    "newsletter_footer_contents": "“In Jumpsuits We Trust”",
+    "collections_center_grid_link": false,
+    "favicon_enable": false,
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "header_search_enable": true,
+          "logo": "shopify:\/\/shop_images\/BETTERRESNEWTAGLINE.png",
+          "logo_max_width": "450",
+          "nav_menu": "main-menu",
+          "nav_below_logo": false,
+          "left_aligned_logo": false,
+          "show_header_lines": false,
+          "show_announcement": true,
+          "header_text": "NEW ARRIVALS DROPPING SOON!",
+          "announcement_link": ""
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "menu",
+            "settings": {
+              "menu_title": "Links",
+              "menu": "footer"
+            }
+          },
+          "footer-2": {
+            "type": "social",
+            "settings": {}
+          },
+          "footer-3": {
+            "type": "newsletter",
+            "settings": {
+              "subtext": "<p>Sign up for the latest news, offers and styles<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-2",
+          "footer-3"
+        ],
+        "settings": {
+          "show_methods_of_payment": false
+        }
+      },
+      "slider": {
+        "type": "slider",
+        "blocks": {
+          "slider-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/2X4_Risen_Division.png",
+              "alignment": "center center",
+              "overlay_opacity": 0,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "slider-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/IMG_8255_edit.jpg",
+              "alignment": "center top",
+              "overlay_opacity": 0,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "b35886e3-0669-42e6-a04f-c321ef6d4707": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/carousel.jpg",
+              "alignment": "center center",
+              "overlay_opacity": 15,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
+          "176a117f-0b25-4530-95cf-f0658264e3f5": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/philosophy_edit.jpg",
+              "alignment": "center center",
+              "overlay_opacity": 30,
+              "color_text": "#ffffff",
+              "text_alignment": "center",
+              "slide_heading": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "slider-0",
+          "slider-1",
+          "b35886e3-0669-42e6-a04f-c321ef6d4707",
+          "176a117f-0b25-4530-95cf-f0658264e3f5"
+        ],
+        "settings": {
+          "slider_height": "large",
+          "slider_autorotate": true,
+          "slider_autorotate_rate": 3,
+          "slider_home_transition": "fade",
+          "text_size": "medium"
+        }
+      },
+      "featured-collection": {
+        "type": "featured-collection",
+        "settings": {
+          "title": "FEATURED COLLECTIONS",
+          "featured_collection": "frontpage",
+          "num_per_row": 4,
+          "num_rows": 1,
+          "vendor_enable": false,
+          "show_sale_circle": false,
+          "show_sold_out_circle": false,
+          "center_grid_link": true
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "settings": {}
+      },
+      "feature-row-0": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/philosophy_square.jpg",
+          "layout": "right",
+          "title": "OUR PHILOSOPHY",
+          "text": "<p><strong>RISEN DIVISION is dedicated to continuing the art and legacy of the jumpsuit for the polymath.<\/strong><\/p><p>The jumpsuit is a stand-alone piece that transitions from day to night. It embraces the feeling of empowerment and inner beauty as a closet staple that transcends time, trend and is forever in fashion.<\/p><p>Here's to continuing the cult classic with a nod to its formative years, and the men and women who have led the way to our ever-changing, multi-tasking selves.<\/p><p>“IN JUMPSUITS WE TRUST”<br\/>RISEN DIVISION<\/p>",
+          "button_label": "LEARN MORE",
+          "button_link": "shopify:\/\/pages\/about"
+        }
+      },
+      "map": {
+        "type": "map",
+        "settings": {
+          "heading": "Our store",
+          "address": "<p>123 Fake St.<br>Toronto, Canada<\/p><p>Mon - Fri, 10am - 9pm<br>Saturday, 11am - 9pm<br>Sunday, 11am - 5pm<\/p>",
+          "map_address": "80 Spadina Ave, Toronto",
+          "button": "Directions",
+          "show_pin": true,
+          "api_key": "",
+          "position": "center center"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "product_vendor_enable": true,
+          "product_quantity_enable": true,
+          "product_image_zoom_type": "zoom-in",
+          "product_thumbnails_position": "below",
+          "show_extra_tab": true,
+          "extra_tab_content": "size-chart",
+          "social_sharing": true,
+          "enable_payment_button": true,
+          "add_to_cart_width": "small"
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "vendor_enable": false,
+          "show_sale_circle": true,
+          "show_sold_out_circle": true,
+          "sort_enable": true,
+          "tags_enable": true,
+          "center_grid_link": true
+        }
+      },
+      "16554964381ac46966": {
+        "type": "collection-list",
+        "blocks": {
+          "16554964381ac46966-0": {
+            "type": "collection",
+            "settings": {
+              "collection": "the-woolf"
+            }
+          },
+          "16554964381ac46966-1": {
+            "type": "collection",
+            "settings": {
+              "collection": "the-quimby"
+            }
+          },
+          "16554964381ac46966-2": {
+            "type": "collection",
+            "settings": {
+              "collection": "the-wilde"
+            }
+          },
+          "16554964381ac46966-3": {
+            "type": "collection",
+            "settings": {
+              "collection": "the-gibson"
+            }
+          }
+        },
+        "block_order": [
+          "16554964381ac46966-0",
+          "16554964381ac46966-1",
+          "16554964381ac46966-2",
+          "16554964381ac46966-3"
+        ],
+        "settings": {
+          "title": "FEATURED COLLECTIONS"
+        }
+      },
+      "16554973409976faf1": {
+        "type": "gallery",
+        "blocks": {
+          "16554973409976faf1-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bespoke.jpg",
+              "link": "shopify:\/\/pages\/bespoke"
+            }
+          },
+          "16554973409976faf1-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/white.png",
+              "link": "shopify:\/\/pages\/bespoke"
+            }
+          },
+          "16554973409976faf1-2": {
+            "type": "image",
+            "disabled": true,
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bespoke.jpg",
+              "link": "shopify:\/\/pages\/bespoke"
+            }
+          }
+        },
+        "block_order": [
+          "16554973409976faf1-0",
+          "16554973409976faf1-1",
+          "16554973409976faf1-2"
+        ],
+        "settings": {}
+      },
+      "1655497567b04c1b3b": {
+        "type": "rich-text",
+        "settings": {
+          "section_title": "YOUR CUSTOM SUIT",
+          "text": "<p><strong>Interested in a one-of-a-kind jumpsuit?<\/strong><\/p><p>Starting at $750 you can get a unique and exclusive RISEN DIVISION Couture Workwear Jumpsuit, and select from a variety of colors, design details, trims and more.<em> <\/em><\/p>",
+          "text_size": "large"
+        }
+      },
+      "165549792603dc1cca": {
+        "type": "gallery",
+        "disabled": true,
+        "blocks": {
+          "165549792603dc1cca-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bespoke.jpg",
+              "link": "shopify:\/\/pages\/bespoke"
+            }
+          },
+          "165549792603dc1cca-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bespoke.jpg",
+              "link": "shopify:\/\/pages\/bespoke"
+            }
+          },
+          "165549792603dc1cca-2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/bespoke.jpg",
+              "link": "shopify:\/\/pages\/bespoke"
+            }
+          }
+        },
+        "block_order": [
+          "165549792603dc1cca-0",
+          "165549792603dc1cca-1",
+          "165549792603dc1cca-2"
+        ],
+        "settings": {}
+      },
+      "165549798435367093": {
+        "type": "featured-product",
+        "settings": {
+          "featured_product": "the-lamarr",
+          "product_vendor_enable": false,
+          "product_quantity_enable": false,
+          "product_image_zoom_type": "zoom-in",
+          "social_sharing": true,
+          "enable_payment_button": false,
+          "add_to_cart_width": "medium"
+        }
+      },
+      "16554987567ad113ea": {
+        "type": "instafeed",
+        "settings": {
+          "heading_size": 24,
+          "feed_width": 100,
+          "html_area": ""
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "Other Items That May Suit You",
+          "vendor_enable": false,
+          "show_sale_circle": false,
+          "center_grid_link": true
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_notes_enable": false
+        }
+      },
+      "product-collection-pdp": {
+        "type": "product-collection-pdp",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "Featured from this Collection",
+          "vendor_enable": false,
+          "show_sale_circle": false,
+          "center_grid_link": true
+        }
+      }
+    },
+    "content_for_index": [
+      "slider",
+      "16554964381ac46966",
+      "165549798435367093",
+      "1655497567b04c1b3b",
+      "16554973409976faf1",
+      "165549792603dc1cca",
+      "feature-row-0",
+      "16554987567ad113ea"
+    ]
+  },
+  "presets": {
+    "Vintage": {
+      "color_topbar_bg": "#1b1e2f",
+      "color_body_bg": "#faf9f7",
+      "color_footer_bg": "#1b1e2f",
+      "color_borders": "#faf9f7",
+      "color_primary": "#d77e6a",
+      "color_button_primary_text": "#ffffff",
+      "color_topbar_text": "#ffffff",
+      "color_header_text": "#1b1e2f",
+      "color_body_text": "#1b1e2f",
+      "color_footer_text": "#f2f0ee",
+      "color_footer_social_link": "#f2f0ee",
+      "type_base_family": "helvetica_n4",
+      "type_base_size": "16px",
+      "type_header_family": "crimson_text_n7",
+      "type_header_size": "30px",
+      "type_accent_family": "pt_sans_n7",
+      "type_accent_size": "14px",
+      "type_accent_transform": true,
+      "type_accent_spacing": true,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_sharing_style": "normal",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Arvo",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#0081a3",
+      "checkout_button_color": "#0081a3",
+      "checkout_error_color": "#e42c00",
+      "collections_center_grid_link": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "header_search_enable": true,
+            "logo_max_width": "90",
+            "nav_below_logo": false,
+            "left_aligned_logo": true,
+            "show_header_lines": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            },
+            "footer-1": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "social",
+              "settings": {}
+            },
+            "footer-3": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2",
+            "footer-3"
+          ],
+          "settings": {
+            "show_methods_of_payment": true
+          }
+        },
+        "slider": {
+          "type": "slider",
+          "blocks": {
+            "slider-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "slider-1": {
+              "type": "image",
+              "settings": {}
+            },
+            "slider-2": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "slider-0",
+            "slider-1",
+            "slider-2"
+          ],
+          "settings": {
+            "slider_autorotate": false,
+            "slider_autorotate_rate": 5,
+            "slider_home_transition": "fade"
+          }
+        },
+        "featured-collection": {
+          "type": "featured-collection",
+          "settings": {
+            "title": "Popular this week",
+            "featured_collection": "frontpage",
+            "num_per_row": 4,
+            "num_rows": 2,
+            "vendor_enable": false,
+            "show_sale_circle": true,
+            "show_sold_out_circle": true,
+            "center_grid_link": false
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "settings": {}
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "product_vendor_enable": true,
+            "product_quantity_enable": false,
+            "product_image_zoom_type": "lightbox",
+            "product_thumbnails_position": "right",
+            "show_extra_tab": false,
+            "extra_tab_content": "",
+            "social_sharing": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "vendor_enable": true,
+            "show_sale_circle": true,
+            "show_sold_out_circle": true,
+            "sort_enable": true,
+            "tags_enable": true,
+            "center_grid_link": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "article_author_enable": false,
+            "social_sharing": false
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "product_vendor_enable": false,
+            "product_quantity_enable": false,
+            "product_image_zoom_type": "lightbox",
+            "social_sharing": false
+          }
+        },
+        "featured-blog": {
+          "type": "featured-blog",
+          "settings": {
+            "title": "News",
+            "blog": "news",
+            "post_limit": 2,
+            "blog_show_date": true,
+            "blog_show_author": false,
+            "blog_show_image": false,
+            "blog_show_excerpt": true,
+            "show_view_all": false
+          }
+        }
+      },
+      "content_for_index": [
+        "slider",
+        "featured-blog",
+        "featured-collection",
+        "featured-product"
+      ]
+    },
+    "Fashion": {
+      "enable_wide_layout": true,
+      "color_body_bg": "#ffffff",
+      "color_footer_bg": "#ffffff",
+      "color_borders": "#dddddd",
+      "color_topbar_bg": "#403b37",
+      "color_topbar_text": "#ffffff",
+      "color_primary": "#f25c54",
+      "color_button_primary_text": "#ffffff",
+      "color_header_text": "#403b37",
+      "color_body_text": "#403b37",
+      "color_footer_text": "#403b37",
+      "color_footer_social_link": "#403b37",
+      "type_base_family": "pt_sans_n4",
+      "type_base_size": "16px",
+      "type_header_family": "optima_nova_n7",
+      "type_header_size": "32px",
+      "type_accent_family": "optima_nova_n4",
+      "type_accent_size": "16px",
+      "type_accent_transform": true,
+      "type_accent_spacing": true,
+      "favicon_enable": false,
+      "social_sharing_style": "normal",
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#e42c00",
+      "checkout_button_color": "#e42c00",
+      "checkout_error_color": "#e42c00",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "header_search_enable": true,
+            "logo_max_width": "450",
+            "nav_below_logo": false,
+            "left_aligned_logo": true,
+            "show_header_lines": true
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "menu",
+              "settings": {
+                "menu_title": "Links",
+                "menu": "footer"
+              }
+            },
+            "footer-1": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            },
+            "footer-2": {
+              "type": "social",
+              "settings": {}
+            },
+            "footer-3": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2",
+            "footer-3"
+          ],
+          "settings": {
+            "show_methods_of_payment": true
+          }
+        },
+        "slider": {
+          "type": "slider",
+          "blocks": {
+            "slider-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "slider-1": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "slider-0",
+            "slider-1"
+          ],
+          "settings": {
+            "slider_autorotate": false,
+            "slider_autorotate_rate": 5,
+            "slider_home_transition": "fade"
+          }
+        },
+        "featured-collection": {
+          "type": "featured-collection",
+          "settings": {
+            "featured_collection": "frontpage",
+            "num_per_row": 4,
+            "num_rows": 1
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "settings": {}
+        },
+        "feature-row-0": {
+          "type": "feature-row",
+          "settings": {
+            "layout": "right"
+          }
+        },
+        "feature-row-1": {
+          "type": "feature-row",
+          "settings": {
+            "layout": "left"
+          }
+        },
+        "map": {
+          "type": "map",
+          "settings": {}
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "product_vendor_enable": true,
+            "product_quantity_enable": true,
+            "product_image_zoom_type": "zoom-in",
+            "product_thumbnails_position": "below",
+            "social_sharing": true
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "vendor_enable": true,
+            "show_sale_circle": true,
+            "show_sold_out_circle": true,
+            "sort_enable": true,
+            "tags_enable": true,
+            "center_grid_link": false
+          }
+        }
+      },
+      "content_for_index": [
+        "slider",
+        "featured-collection",
+        "feature-row-0",
+        "feature-row-1",
+        "map"
+      ]
+    },
+    "Modern": {
+      "enable_wide_layout": false,
+      "color_topbar_bg": "#cbd5cc",
+      "color_body_bg": "#ffffff",
+      "color_footer_bg": "rgba(0,0,0,0)",
+      "color_borders": "#ebebeb",
+      "color_primary": "#59756f",
+      "color_button_primary_text": "#ffffff",
+      "color_topbar_text": "#000000",
+      "color_header_text": "#000000",
+      "color_body_text": "#000000",
+      "color_footer_text": "#000000",
+      "color_footer_social_link": "#59756f",
+      "type_base_family": "pt_serif_n4",
+      "type_base_size": "17px",
+      "type_header_family": "source_sans_pro_n7",
+      "type_header_size": "32px",
+      "type_accent_family": "source_sans_pro_n7",
+      "type_accent_size": "16px",
+      "type_accent_transform": false,
+      "type_accent_spacing": false,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_sharing_style": "normal",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "Helvetica Neue",
+      "checkout_body_font": "Helvetica Neue",
+      "checkout_accent_color": "#767676",
+      "checkout_button_color": "#e42c00",
+      "checkout_error_color": "#e42c00",
+      "collections_center_grid_link": false,
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "header_search_enable": true,
+            "logo_max_width": "60",
+            "nav_below_logo": true,
+            "left_aligned_logo": false,
+            "show_header_lines": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            },
+            "footer-1": {
+              "type": "menu",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "social",
+              "settings": {}
+            },
+            "footer-3": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2",
+            "footer-3"
+          ],
+          "settings": {
+            "show_methods_of_payment": true
+          }
+        },
+        "slider": {
+          "type": "slider",
+          "blocks": {
+            "slider-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "slider-1": {
+              "type": "image",
+              "settings": {}
+            },
+            "slider-2": {
+              "type": "image",
+              "settings": {}
+            },
+            "slider-3": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "slider-0",
+            "slider-1",
+            "slider-2",
+            "slider-3"
+          ],
+          "settings": {
+            "slider_autorotate": false,
+            "slider_autorotate_rate": 5,
+            "slider_home_transition": "fade"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "product_vendor_enable": true,
+            "product_quantity_enable": false,
+            "product_image_zoom_type": "lightbox",
+            "product_thumbnails_position": "right",
+            "show_extra_tab": false,
+            "extra_tab_content": "",
+            "social_sharing": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "article_author_enable": false,
+            "social_sharing": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "vendor_enable": false,
+            "show_sale_circle": true,
+            "show_sold_out_circle": true,
+            "sort_enable": true,
+            "tags_enable": true,
+            "center_grid_link": false
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-list-0": {
+              "type": "collection",
+              "settings": {}
+            },
+            "collection-list-1": {
+              "type": "collection",
+              "settings": {}
+            },
+            "collection-list-2": {
+              "type": "collection",
+              "settings": {}
+            },
+            "collection-list-3": {
+              "type": "collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "collection-list-0",
+            "collection-list-1",
+            "collection-list-2",
+            "collection-list-3"
+          ],
+          "settings": {
+            "title": "Collection list"
+          }
+        },
+        "collection-list-1": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-list-1-0": {
+              "type": "collection",
+              "settings": {}
+            },
+            "collection-list-1-1": {
+              "type": "collection",
+              "settings": {}
+            },
+            "collection-list-1-2": {
+              "type": "collection",
+              "settings": {}
+            },
+            "collection-list-1-3": {
+              "type": "collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "collection-list-1-0",
+            "collection-list-1-1",
+            "collection-list-1-2",
+            "collection-list-1-3"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "color_bg": "#eaebea"
+          }
+        }
+      },
+      "content_for_index": [
+        "slider",
+        "collection-list",
+        "collection-list-1",
+        "newsletter"
+      ]
+    }
+  }
+}

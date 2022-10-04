@@ -1,0 +1,139 @@
+{% style %}
+    
+.modalContent .modalContent__media {
+    background-position: bottom;
+    background-image: url({{ settings.newsletter_image | img_url: 'master' }});
+}
+
+.descriptionContainer h2{
+    color: {{settings.newsletter_text_color}};
+}
+
+.modalContent form label {
+    color: {{settings.newsletter_text_color}};
+}
+
+.modalContent button.button {
+    background-color: {{settings.newsletter_button_color}};
+}
+
+@media screen and (max-width: 749px) {
+    
+    .mobile-modal-box .descriptionContainer span {
+        color: {{settings.newsletter_text_color}};
+    }
+
+}
+
+{% endstyle %}
+
+<div class="news-overlay">
+</div>
+
+{% form 'customer' %}
+<div class="modalContent {% if form.posted_successfully? %}mobile-modal-show{% endif %}" id="SignupForm_0">
+    {% if form.posted_successfully? %}
+        <input type="hidden" id="isPosted" value="true"/>
+        <div class="modal-content-box"> 
+            <div class="mc-closeModal"></div>
+            <div class="modalContent-success">
+                <span>Almost finished... We need to confirm your email address. To complete the subscription process, please click the link in the email we just sent you.</span>
+            </div>
+        </div>
+        <div class="mobile-modal-box">
+            <div class="mc-closeModal mc-closeModal-mobile"></div>
+        </div>
+    {% else %}
+        <input type="hidden" id="isPosted" value="false"/>
+        <div class="modal-content-box"> 
+            <div class="mc-closeModal"></div>
+            <div class="modalContent__content">
+                <div class="content__titleDescription">
+                    <div class="descriptionContainer">
+                        <h2>{{ settings.newsletter_header_1 }}</h2><h2>{{ settings.newsletter_header_2 }}</h2>
+                    </div>
+                </div>
+                
+                        {{ form.errors | default_errors }}
+                        <input id="contact_tags" name="contact[tags]" type="hidden" value="newsletter" />
+                        <div  class="form__email">
+                            <label>
+                            {{ settings.newsletter_email_label }}
+                            </label>
+                            <input id="contact_email" required name="contact[email]" type="email" />
+                        </div>
+                        {% if settings.newsletter_button_label != blank %}
+                            <div class="form__submit">
+                                <button type="submit" class="button">{{settings.newsletter_button_label}}</button>
+                            </div>
+                        {% endif %}
+                
+                <div class="content__footer footerContainer"><p>{{settings.newsletter_footer_content}}</p></div>
+            </div>
+            {% if settings.newsletter_image != blank %}
+                <div class="modalContent__media">
+                </div>
+            {% endif %}
+        </div>
+        <div class="mobile-modal-box">
+            <div class="mc-closeModal mc-closeModal-mobile"></div>
+            <div class="content__titleDescription">
+                <div class="descriptionContainer">
+                    <span>{{ settings.newsletter_header_1 }} {{ settings.newsletter_header_2 }}</span>
+                </div>
+            </div>
+            <div class="form__submit">
+                <button type="button" id="open-mobile-newsletter" class="button">{{settings.newsletter_button_label}}</button>
+            </div>
+        </div>
+    {% endif %}
+</div>
+{% endform %}
+
+
+<script>
+    
+    let __signup_form_0 = document.querySelector('#SignupForm_0');
+    
+    let __flag = localStorage.getItem('__loadedonce');
+    if(__flag == 'true') document.querySelector('.news-overlay').style.display = 'none';
+    
+    window.addEventListener('load', (e) => {
+        setTimeout(() => {
+            let __flag = localStorage.getItem('__loadedonce');
+            if (__flag == 'true') return; 
+            __signup_form_0.classList.add('modal-show');
+            if (document.querySelector('#isPosted').value == 'true') localStorage.setItem('__loadedonce', true);
+        }, (document.querySelector('#isPosted').value == 'true'?1000:5000));
+    });
+
+    let remove = () => {
+        
+        __signup_form_0.classList.remove('modal-show');
+        document.querySelector('.news-overlay').remove();
+        localStorage.setItem('__loadedonce', true);
+    }
+
+    // Modal remove event. 
+    document.querySelector('.mc-closeModal').addEventListener('click', () => {
+        remove();
+    })
+    
+    document.querySelector('.mc-closeModal-mobile').addEventListener('click', () => {
+        remove();
+    })
+    
+    window.addEventListener('keydown', (e) => {
+        if (e.keyCode == 27 ) {
+            remove();
+        }
+    })
+
+    document.querySelector('.news-overlay').addEventListener('click', (e) => {
+        remove();
+    })
+
+    document.querySelector('#open-mobile-newsletter').addEventListener('click', (e) => {
+        __signup_form_0.classList.add('mobile-modal-show');
+    })
+</script>
