@@ -1,4 +1,4 @@
 development:
-  password: 
-  theme_id: "131427729578"
+  password: <access Token>
+  theme_id: "<your theme ID>"
   store: <your Store URL>.myshopify.com
